@@ -1,0 +1,56 @@
+flux
+
+scss
+ngrx
+
+
+UI/UX
+Angular doesnot provide any component for responsiveness.
+
+Html5 ApI Cache storage
+
+
+performance
+polyfills.js
+modular.js freeze the incomaptablity issues 
+
+
+pwa progressive web Application
+responsive
+
+shallow DOM
+VD
+			corejs
+	
+	DOM				SSE
+					AJAX
+					http Client
+					Browser
+
+
+
+			ECMA/ECMA6
+			JS framework
+Complete framework			Supporting framework
+jquery					Angular js//2/3/4/5''''8\
+IBM dojo				backbone,knocout,react,ember,vue,polymer
+ext.js
+Kendo ui
+
+google light house
+
+
+abraw function
+let and var
+
+==========================================
+
+Major six point:
+ui/ux
+jsx
+es6/es5
+adv typescript
+angular arch
+angular container vs angular API
+
+==========================================

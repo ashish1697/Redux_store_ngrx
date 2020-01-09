@@ -1,0 +1,75 @@
+CSS:--------->
+
+	flex properties
+
+	pseudo class 
+	@rule
+	1.@import	
+	2. @keyframe(Animation)
+	3.@media(media queries) -------flex layout -@angular/cdk
+	4.@fontFace
+
+========================================
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout
+        
+        https://github.com/angular/flex-layout/wiki/API-Documentation
+
+go through CSS sudo classes 
+
+
+========================================
+@Fontface :- https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes
+
+=======================================
+
+					NgRx
+				--------------------
+	
+ui/ux
+	client side storage
+		1. cache  -------limit to 5 to 10mb 
+		2. Local storage/session storage  lots of thread will cause to disrupt the service
+		3. Web Storage is at browser level. may fail for cross browser platform.
+
+
+	Ng--- Angular 
+	rx--- Redux
+
+Why Rdux?
+	1. Redux provide us better state management(GlobaL LEVEL)
+	2. It help to acheive the flux implementation
+	3. Reedux support the three important principles.( https://redux.js.org/introduction/three-principles )
+		* The state of your whole application is stored in an object tree within a single store.
+			store is model which contains data each store is related with the one usecase flow of the story.
+		* Store is Readable.
+		* Yes, we can change using the way of reducer which is pure function
+				reducers are pure function which take two parameters :---->
+					
+					reducers x(intial_state, action){
+						
+						return final_state;-----------> store	
+					}
+
+	FLUX Arch. :---------->evolved form of MVC
+
+	M :--------> Model-----> Store
+	V :---------> view-----> Angular View/Component.React view component
+	C: --------> Controller--> Action ----------- Dispatcher
+
+	Flux :->
+		Action----Dispatcher------reducer-------store----------component(A view)
+		SRC------- App--------Action---------store-------reducer------------component(Angular)
+				   <----------------Redux----------------->	
+
+
+	Redux contain their own middleware with the implememtaion of Thunk and Saga library with help of SSC 
+	https://webpack.js.org/configuration/configuration-languages/#babel-and-jsx --------webpack configuration
+
+	NOte: --> In redux application there is a way to combine the reducer using the combine reducer function.
+
+
+https://www.npmjs.com/package/redux-thunk 
+
+ // jasmine TDD 
+
+https://jasmine.github.io/

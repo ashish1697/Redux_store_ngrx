@@ -1,0 +1,142 @@
+UI/UX
+
+
+
+Ivy
+DOm cycle
+	render
+	rerender
+
+AOT/JIT ----ES5
+
+			A8 Container 
+	Ivy				lazyn loading	
+	AOT				DI
+	ESS				code style-------es5/es6
+
+
+
+jsx
+
+<HTML>
+	<BODY>
+		<h1>Ashish </h1>
+	</BODY>
+</HTML>
+
+	here h1.js is understood by the browser.
+		body.js
+
+xyz.ts----comiple---xyz.js---------<xyz>
+
+
+ESS6/ESS5
+
+angular 1x--------------------angular 2x-----------------angular 8x/9x
+ES 5				ES 6------------------------->
+
+not readable			readable
+Low performance			better performance
+seems to more 			object oriented  (class and constructor)
+functional(functions)		
+Old Js support			new structur with Add on feature with ts
+
+Note:-
+	there are thee frameworkwhicj support ES6 version
+	
+	React.js--------------v---------flux with redux-----little stuff
+	Angular.js-------MVC development------easy code
+	ext.js----------paid
+	IBM dojo--------PAID
+=========================================================================
+
+Access modifier: public,private.protected,readonly
+
+=========================================================================
+
+Angular Arch:-
+	MVC----------- MVVM (Two way binding):------->
+	A8:    oneway/ two way
+		{{}} :------------- angular expression(SPEL):------ $
+	
+	Two way binding: 
+		ngMModel------------------directive---------attribute
+
+==========================================================================
+
+@Angular/core :----->
+	
+	it support all many decorators
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+RXJS:------  Reactive Js(reactive programming):-
+	Call Get
+	Promise :- -fetch(RXJS)----http.get():----Angular8
+
+NgRx :----------Two collection lib which can be used in A8 development
+	1.Immutable.js------------------react /redux app
+	2. Underscore.js
+
+========================================================================
+Component contains three parts:-
+	1. JS/TS Code (inbbound/outbound event)
+	2. Template wiyth directive
+	3. Style(css/scss)
+
+========================================================================
+Angular
+	Note: the moduleis app.module.ts which contain four section
+
+	1. Declaration :--> component/pipe/directive/
+	2. import :------->
+	3. provider
+	4. Bootstrap
+
+==========================================================================
+
+Two Method in Route:-
+	1. ForRoot() :------	use and register in app.module.ts
+	2. forChild  :------	Module routing in import section for lazy loading implementaion
+	
+===========================================================================
+
+Router Param :--> used for send pararmeter
+
+Router Guard : ---> help restrict the URI/URL
+
+can activate and can deactivate
+
+=========================================================================
+
+Angular Forms:------>
+
+	1. Simple forms
+	2. Template Driven Form
+	3. Reactive Form
+
+=========================================================================
+
+asynchronus----
+
+
+Validation :--Custome 
+    
+    
+    https://stackblitz.com/edit/ng-cross-validation?file=app%2Fapp.component.ts
+        
+        
+        
+        https://stackblitz.com/angular/pedkxdadkke?file=src%2Fapp%2Fhero-form%2Fhero-form.component.html
+            
+            ++++++++++++++++++++++++++++++++++++++
+            
+            
+            Router Link :-- Guard & Param 
+                
+                
+
+Spend time on this link :-> 
+                    
+                    https://redux.js.org/

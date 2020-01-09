@@ -1,0 +1,35 @@
+TDD/BDD
+
+Angular 2x to 9x
+	Jasmine-------test case & test suit
+	karma ----------test Runner
+	instanbul ---------test reporter
+
+
+
+TDD---- jasmine/karma/instanbul tools
+BDD----- Cucumber
+
+
+=============================================
+
+Jasmine is the core test engine to execute test cases
+It contains two important method
+	1. describe();---> Test Suit
+	2. it() :---> Test ----- jest :----- test()
+We can run these test cases using various engine.
+	* Jasmine Engine
+	* Karma Engine
+	* Jest Engine
+
+=====================================================
+
+All are async test cases that is lazy loading
+https://medium.com/@manivel45/angular-7-unit-testing-code-coverage-5c7a238315b6
+
+=========================================================
+Wave /Aria
+
+https://coryrylan.com/blog/angular-accessibility-tips-and-tricks
+https://material.angular.io/components/select/overview
+https://developers.google.com/web/fundamentals/accessibility/semantics-aria
